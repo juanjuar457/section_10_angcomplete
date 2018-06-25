@@ -6,9 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  loadedFeature = 'recipe';
+  public loadedFeature = 'recipe';
 
-  onNavigate(feature: string) {
+  public onNavigate(feature: string) {
     this.loadedFeature = feature;
   }
 }
+
+// ts lint really doesn't like using accesss modifiers...

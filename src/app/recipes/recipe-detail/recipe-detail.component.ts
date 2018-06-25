@@ -16,3 +16,6 @@ export class RecipeDetailComponent implements OnInit {
   }
 
 }
+
+
+// finish re-hash, add services form section 8 + 10
